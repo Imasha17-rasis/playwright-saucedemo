@@ -34,6 +34,67 @@ Tech Stack
 - Visual Studio Code
 
 ---
+## Project Structure
+
+```text
+playwright-saucedemo/
+│
+├── pages/
+│   ├── LoginPage.js
+│   ├── ProductPage.js
+│   ├── CartPage.js
+│   └── CheckoutPage.js
+│
+├── tests/
+│   ├── login.spec.js
+│   ├── cart.spec.js
+│   └── checkout.spec.js
+│
+├── utils/
+│   └── testData.js
+│
+└── README.md
+```
+
+---
+
+## Installation
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Install Playwright browsers:
+
+```bash
+npx playwright install
+```
+
+---
+
+## Run Tests
+
+Run all tests:
+
+```bash
+npx playwright test
+```
+
+Run with browser UI:
+
+```bash
+npx playwright test --headed
+```
+
+Run in debug mode:
+
+```bash
+npx playwright test --debug
+```
+
+---
 
 Test Website
 
